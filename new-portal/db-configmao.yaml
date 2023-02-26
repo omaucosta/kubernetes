@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMao
+metadata:
+  name: db.configmao
+data:
+  MYSQL_ROOT_PASSWORD:
+  MYSQL_DATABASE:
+  MYSQL_PASSWORD:

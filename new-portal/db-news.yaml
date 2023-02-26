@@ -10,10 +10,3 @@ spec:
       image: aluracursos/mysql-db:1
       ports:
         - containerPort: 3306
-      env:
-        - name: "MYSQL_ROOT_PASSWORD"
-          value:
-        - name: "MYSQL_DATABASE"
-          value:
-        - name: "MYSQL_PASSWORD"
-          value:
