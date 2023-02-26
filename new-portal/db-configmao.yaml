@@ -1,8 +1,9 @@
 apiVersion: v1
-kind: ConfigMao
+kind: ConfigMap
 metadata:
-  name: db.configmao
+  name: system.configmap
 data:
-  MYSQL_ROOT_PASSWORD:
-  MYSQL_DATABASE:
-  MYSQL_PASSWORD:
+  HOST_DB: svc-db-news:3306
+  USER_DB: root
+  PASS_DB:
+  DATABASE_DB: empresa
