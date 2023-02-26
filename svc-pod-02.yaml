@@ -1,0 +1,13 @@
+# conecting diffrent pods
+apiVersion: v1
+kind: Service
+metadata:
+  name: svc-pod-02
+spec:
+  type: clusterIP
+  # directing for pod02
+  selector:
+    app: second-pod
+  ports:
+    - port: 9000
+    targetPort: 80
