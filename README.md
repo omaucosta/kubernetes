@@ -1,4 +1,4 @@
-# kubernetes
+## kubernetes
 Estudo sobre kubernetes
 
 # comands
@@ -18,13 +18,19 @@ kubectl describe pod 'namepod'
 
 kubectl exec -it 'namepod' -- bash
 
-# estrutura: sandbox
+# struct: news portal
 
 pod: first-pod
 
-# estrutura: 
+# struct: theory
 
 pod:
     - pod01
     - pod02
     - svc-pod-02
+
+NodePort:
+    - svc-pod-01
+
+loadbalancer: 
+    - svc-pod-01-loadbalancer
