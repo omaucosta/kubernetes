@@ -7,6 +7,6 @@ metadata:
 spec:
   containers:
     - name: news-portal-container
-      image: aluracursos/portal/noticias:1
+      image: aluracursos/portal-noticias:1
       ports:
         - containerPort: 80
